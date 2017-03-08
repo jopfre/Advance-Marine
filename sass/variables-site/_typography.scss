@@ -1,0 +1,31 @@
+$font__main: 'cabinregular', sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__heading: 'mohaveregular', sans-serif;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+
+@font-face {
+    font-family: 'mohaveregular';
+    src: url('fonts/mohave/mohave-webfont.eot');
+    src: url('fonts/mohave/mohave-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mohave/mohave-webfont.woff2') format('woff2'),
+         url('fonts/mohave/mohave-webfont.woff') format('woff'),
+         url('fonts/mohave/mohave-webfont.ttf') format('truetype'),
+         url('fonts/mohave/mohave-webfont.svg#mohaveregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinregular';
+    src: url('fonts/cabin/cabin-regular-webfont.eot');
+    src: url('fonts/cabin/cabin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cabin/cabin-regular-webfont.woff2') format('woff2'),
+         url('fonts/cabin/cabin-regular-webfont.woff') format('woff'),
+         url('fonts/cabin/cabin-regular-webfont.ttf') format('truetype'),
+         url('fonts/cabin/cabin-regular-webfont.svg#cabinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

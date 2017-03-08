@@ -1,0 +1,57 @@
+.site {
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  min-height: 100vh;
+  margin: 0 auto;
+  background: $color__light;
+  background: $color__lighttrans;
+  padding: 2em;
+  box-shadow: 12px 0 15px -4px $color__darktrans, -12px 0 8px -4px $color__darktrans;
+}
+
+.site-title {
+  line-height: 1em;
+  a {
+    text-decoration: none;
+    color: $color__text-main;
+  }
+}
+.site-description {
+  margin-top: 0;
+  margin-bottom: 2.5em;
+}
+
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 3.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 0.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.site-info p {
+  @extend small;
+  text-align: center;
+}
